@@ -41,6 +41,17 @@ android {
 
 dependencies {
 
+    //Compose ViewModel
+    implementation(libs.compose.viewModel)
+    //Gson
+    implementation(libs.gson)
+    //Retrofit
+    implementation(libs.retrofit)
+    //OkHttpClient
+    implementation(libs.okHttpClient)
+    //HttpLoggingInterceptor
+    implementation(libs.httpLoggingInterceptor)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
