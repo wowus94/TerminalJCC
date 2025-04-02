@@ -1,10 +1,10 @@
 package ru.shevrus.terminaljcc.data
 
-import android.icu.util.Calendar
 import android.os.Parcelable
 import androidx.compose.runtime.Immutable
 import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
+import java.util.Calendar
 import java.util.Date
 
 @Parcelize
